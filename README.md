@@ -1,2 +1,3 @@
 # TutorialFiles
-This is where I will post all files generated when posting tutorial videos.  Each folder will be labeled with the video lesson information.
+
+Learning and practice material for Project Solaris — C and Python exercises worked through along the way. Not part of the shipped project; nothing here is a dependency of Vanguard, Nebula, Observa, or NovaLink.
