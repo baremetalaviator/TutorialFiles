@@ -6,3 +6,7 @@ Learning and practice material for Project Solaris — C and Python exercises wo
 
 The files will be organized by lesson number for easy reference.
 
+Lesson 1: 
+Lesson 2:
+Lesson 3:
+
