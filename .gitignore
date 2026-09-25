@@ -1,0 +1,69 @@
+# ====================================================================
+# 1. COMPILER & BUILD OUTPUTS (Never commit binaries or object files)
+# ====================================================================
+*.o
+*.obj
+*.out
+*.elf
+*.bin
+*.hex
+*.map
+*.srec
+
+# Ignore whole build and output directories
+build/
+dist/
+bin/
+lib/
+obj/
+
+# CMake-generated files (in case cmake ever runs outside build/)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# ====================================================================
+# 2. SECRETS & CREDENTIALS (Never commit these, under any circumstance)
+# ====================================================================
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+credentials.json
+secrets.json
+keys/
+secrets/
+.secrets/
+
+# ====================================================================
+# 3. PYTHON DEVELOPMENT (For configuration, data plotting, KML tools)
+# ====================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.vpy
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# ====================================================================
+# 4. INTEGRATED DEVELOPMENT ENVIRONMENTS (IDE Local Workspace Settings)
+# ====================================================================
+# VS Code (Keeps your personal window layouts out of the repo)
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# CLion / PyCharm / IntelliJ
+.idea/
+*.iws
+
+# System specific files (Mac/Windows background clutter)
+.DS_Store
+Thumbs.db
